@@ -24,7 +24,8 @@ const options ={
         },
         title:{
             display:true,
-            text:"Naren"
+            text:"Naren",
+            position:'top',
         }
     }
 }
@@ -44,7 +45,7 @@ const data = {
         }
     ]
 }
-export default function Chart() {
+export default function BarChart() {
   return (
     <div style={{width:600, height:400}}>
     <Bar options={options} data={data}/>

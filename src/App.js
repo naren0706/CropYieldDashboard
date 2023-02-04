@@ -1,18 +1,15 @@
 
 import './App.css';
-import Chart from './companent/BarChart';
-import PieChart from "./companent/PieChart";
+import BarChart from './components/BarChart';
+import PieChart from "./components/PieChart";
+import LineChart from './components/LineChart';
 
 function App() {
   return (
     <div className="App" >
-      <Chart/>
-
-      <br>
-      </br>
-      <div style={{height:'64vh' , width:'64vh'}}>
+      <BarChart/>
       <PieChart/>
-      </div>
+      <LineChart/>
     </div>
   );
 }
